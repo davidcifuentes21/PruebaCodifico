@@ -19,9 +19,11 @@ export const App = () => {
 
         <SearchUser onNewUser={onAddUser}/>
         
-        <UserCard 
-          key={User}
-          user={User}/>
+        {
+          (User != "" &&(
+            <UserCard key={User} user={User}/>
+          ))
+        }
       </div>
     </>
   )

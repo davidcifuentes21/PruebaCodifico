@@ -1,6 +1,5 @@
 
 import { fetchUser } from '../hooks/fetchUser'
-import imagen from '/src/assets/mr increible.jpg'
 
 //login, url, following, followers, public_repos, location, twitter, name, date, avatar
 export const UserCard = (user) => {
